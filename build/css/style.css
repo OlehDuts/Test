@@ -1,0 +1,649 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #515151;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.navbar-brand h1 {
+    display: inline-block;
+    color: #5BBD50;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.navbar-brand h1 span {
+    color: #E24425;
+}
+
+header {
+    border-top: 4px solid #5BBD50;
+    background: #F8F8F8;
+}
+
+.nav-logo {
+    min-height: 100px;
+}
+
+.navbar-text p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question .navbar-text {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.question span {
+    font-size: 14px;
+}
+
+.question b {
+    color: #E24425;
+}
+
+.navbar-nav li a {
+    color: #494949;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 12px;
+    vertical-align: middle;
+    border-right: 1px solid #D9D9D9;
+}
+
+.navbar-nav li:last-child a {
+    border-right: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #5BBD50;
+}
+
+.navbar-right li a {
+    font-weight: 200;
+    padding: 0 10px;
+}
+
+.navbar-nav {
+    line-height: 50px;
+}
+
+.navbar-default .container-fluid {
+    max-width: 1213px;
+    margin: 0 auto;
+}
+
+.navbar-collapse .navbar-right {
+    padding-right: 20px;
+}
+
+.sect-1 {
+    background: url(../img/bg_1.png) no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.sect-1 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.sect-1 .form-control {
+    width: 360px !important;
+}
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 12px;
+    font-family: 'Lobster Two', cursive;
+}
+h2 .fancy {
+    line-height: 0.5;
+    text-align: center;
+    font-size: 36px;
+    color: #515151;
+    margin-top: 12px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.fancy span {
+    display: inline-block;
+    position: relative;
+}
+
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 2px solid rgba(89, 89, 89, 0.7);
+    border-top: 2px solid rgba(89, 89, 89, 0.7);
+    top: 0;
+    opacity: 0.5;
+    width: 350px;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 31px;
+    top: 8px;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 31px;
+    top: 8px;
+}
+
+.sect-1 .form-inline {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.sect-2 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.fancy2 {
+    line-height: 0.5;
+    text-align: center;
+    font-size: 25px;
+    color: #e24425;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.fancy2 span {
+    display: inline-block;
+    position: relative;
+}
+
+.fancy2 span:before,
+.fancy2 span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px dotted #989898;
+    top: 0;
+    width: 280px;
+}
+
+.fancy2 span:before {
+    right: 100%;
+    margin-right: 31px;
+    top: 5px;
+}
+
+.fancy2 span:after {
+    left: 100%;
+    margin-left: 31px;
+    top: 5px;
+}
+
+.circle {
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    margin: 0 10px 50px 0;
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(#54AE4A 50%, #515151 50%);
+}
+
+.top-circle {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    height: 50%;
+}
+
+.circle .number {
+    text-align: center;
+    font-size: 28px;
+    left: 37%;
+    top: -21%;
+    border-radius: 100%;
+    background: #E24425;
+    color: #fff;
+    width: 50px;
+    position: absolute;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0 0 0 5px #fff;
+}
+
+.bottom-circle {
+    display: block;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    height: 50%;
+}
+
+.bottom-circle p {
+    padding: 15px 33px;
+}
+
+.bottom-circle p span {
+    font-weight: 300;
+    color: #5bbd50;
+}
+
+.top-circle .fa {
+    color: #fff;
+    font-size: 34px !important;
+    text-align: center;
+    display: inline-block;
+    padding-top: 15px;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.circles-group {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.circles-group img {
+    position: relative;
+    top: -50px;
+}
+
+.sect-3 {
+    background: #F1F1F1;
+    padding: 50px 0;
+}
+
+.sect-3 .fancy2 {
+    color: #4C4C4C;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Lobster Two', cursive;
+}
+
+.control-box {
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-control {
+    border: 2px solid #515151;
+    color: #515151;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 200;
+    line-height: 27px;
+    position: static;
+    height: 30px;
+    width: 30px;
+}
+
+.thumbnails > li {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.span3 {
+    width: 370px;
+    background: #fff;
+}
+
+.span12 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.span12 .caption {
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    float: left;
+    padding: 0 5px 0 15px;
+}
+
+.span12 .caption h4 {
+    font-size: 16px;
+    color: #5BBD50;
+    padding-right: 10px;
+}
+
+.span12 .caption p {
+    font-size: 15px;
+    color: #979797;
+    word-break: break-all;
+}
+
+.span12 .caption .btn {
+    font-weight: 600;
+}
+
+.control-box .left {
+    padding-right: 2px;
+}
+
+.control-box .right {
+    padding-left: 2px;
+}
+
+.control-box p {
+    border-bottom: 1px dotted #989898;
+    text-align: center;
+    display: inline-block;
+    width: 45px;
+    margin-bottom: 7px;
+}
+
+.sect-4 {
+    padding: 55px 0;
+    border-bottom: 2px solid #F1F1F1;
+}
+
+.sect-4 h3 {
+    text-align: left;
+    padding-bottom: 45px;
+    font-weight: 600;
+}
+
+.fancy3 {
+    text-align: center;
+    font-size: 25px;
+    color: #515151;
+    font-family: 'Lobster Two', cursive;
+}
+
+.fancy3 span {
+    display: inline-block;
+    position: relative;
+}
+
+.fancy3 span:before,
+.fancy3 span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px dotted #989898;
+    top: 0;
+}
+
+.fancy3 span:before {
+    right: 100%;
+    margin-right: 31px;
+    top: 12px;
+    width: 117px;
+}
+
+.fancy3 span:after {
+    left: 100%;
+    margin-left: 31px;
+    top: 12px;
+    width: 584px;
+}
+
+.reustor {
+    width: 167px;
+    float: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    height: 108px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 5px solid #F1F1F1;
+}
+
+.reustor:nth-child(odd) {
+    margin-right: 30px;
+}
+
+.reustor img {
+    vertical-align: middle;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.sect-4 .thumbnail {
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0 11px 25px 11px;
+    max-width: 167px;
+}
+
+.sect-4 .thumbnail img {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sect-4 .thumbnail .caption {
+    background: #F1F1F1;
+    text-align: center;
+    color: #515151;
+    font-size: 16px;
+    font-weight: 700;
+    border-top: 1px solid #DBDBDB;
+}
+
+.sect-4 .thumbnail .caption p {
+    margin: 0;
+}
+
+.sect-4 .col-lg-8, .sect-4 .col-lg-4 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.sect-5 {
+    border: 2px solid #F1F1F1;
+}
+
+.sect-5 .banner {
+    background: url(../img/bg_2.png) no-repeat;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 50px 0;
+}
+
+.sect-5 h3 {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFCC00;
+    padding-right: 30px;
+    font-size: 35px;
+    margin: 0;
+}
+
+.sect-5 .list-ban .fa-arrow-right {
+    color: #9E2108;
+    background: #FFCC00;
+    border-radius: 100%;
+    padding: 2px 3px;
+    font-size: 12px;
+
+    vertical-align: middle;
+}
+
+.sect-5 .list-ban li {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.sect-5 .list-ban {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.banner .ban-img {
+    display: inline-block;
+    position: relative;
+}
+
+.banner .ban-img img {
+    margin-left: 30px;
+}
+
+.banner .ban-img .ban-mid {
+    position: absolute;
+    margin: 0;
+    left: 33%;
+    top: -4%;
+    border-radius: 5px;
+}
+
+.banner .btn-sm {
+    background: #47AD3C;
+    border: 2px solid #fff;
+    font-size: 21px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+    margin-left: 4px;
+}
+
+.sect-6 {
+    padding: 40px 0 60px 0;
+}
+
+.sect-6 .rocket {
+    border-radius: 100%;
+    background: #E24425;
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.sect-6 .caption {
+    display: block;
+    position: relative;
+    left: 25px;
+}
+
+.sect-6 .caption h5 {
+    color: #5BBD50;
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sect-6 .caption p {
+    font-size: 15px;
+    color: #8F8F8F;
+}
+
+.sect-6 .rocket .fa {
+    font-size: 35px;
+    color: #fff;
+    line-height: 100px;
+}
+
+.footer {
+    background: #515151;
+    padding: 50px 0 60px 0;
+}
+
+.footer dl dt {
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.footer dl dd a {
+    color: #A9A9A9;
+    font-size: 15px;
+    padding: 6px 0;
+    text-decoration: none;
+}
+
+.footer dl dd a i {
+    padding-right: 10px;
+    color: #5BBD50;
+}
+
+.footer dl dd {
+    border-bottom: 1px dotted #747474;
+    padding: 10px 0;
+    color: #A9A9A9;
+}
+
+.footer dl dd:last-child {
+    border-bottom: none;
+}
+
+.footer dl .last {
+    border-bottom: none;
+}
+
+.form .btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 17px 5px 17px;
+    margin: 0;
+}
+
+.form .form-control {
+    width: 260px;
+    height: 35px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #737373;
+    color: #fff;
+}
+
+.form .form-control input {
+    height: 33px;
+}
+
+.sect-f {
+    background: #4D4D4D;
+    color: #58A650;
+    font-size: 15px;
+    text-align: left;
+    padding: 45px 0;
+}
+
+.sect-f p {
+    margin: 0;
+}
